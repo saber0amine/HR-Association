@@ -26,7 +26,7 @@ public class ApiApplication {
 	        Iterable<Employee> allEmployees = employeeRepository.findAll();
 	        System.out.println("All Employees:");
 	        for (Employee employee : allEmployees) {
-	            System.out.println("helllo eclipse");
+	            System.out.println(employee);
 	        }
 
 	     
